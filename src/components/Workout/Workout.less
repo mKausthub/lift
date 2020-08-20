@@ -1,0 +1,157 @@
+/* todo: delete file if not needed */
+.ordered-items {
+    width: 70px;
+}
+.ordered-items-mid {
+    width: 30px;
+}
+
+.workout-steps {
+    border: 2px solid #B7382D;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 10px 30px 10px;
+    height: 180px;
+    position: relative;
+}
+
+.time-elapsed {
+    width: 150px;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    font-size: 30px;
+    text-align: center;
+    z-index: 3;
+}
+
+.time-elapsed div {
+    margin: 0 auto;
+}
+
+.workout-controls {
+    width: 290px;
+    position: fixed;
+
+    bottom: 0px;
+    left: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.workout-control {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.bottom-divider {
+    margin-bottom: 150px;
+}
+
+.rest-time-info {
+    font-size: 14px;
+}
+
+
+.complete-workout {
+    width: 57px;
+    float: right;
+}
+
+.workout-desc {
+    width: 40% !important;
+}
+
+@media screen and (max-width: 991px) {
+    .workout-steps {
+        height: 800px;
+        font-size: 20px;
+    }
+
+    .workout-method,
+    .workout-status-text,
+    .workout-status {
+        font-size: 3em;
+    }
+    
+    .workout-status {
+        width: 200px;
+        text-align: center !important;
+        margin: 0 auto;
+    }
+
+    .complete-workout {
+        width: 200px;
+        text-align: center;
+    }
+
+    .workout-desc {
+        width: 100% !important;
+        text-align: center;
+        float: none !important;
+    }
+
+    .workout-status-text {
+        text-align: center !important;
+    }
+
+    .workout-method {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .ordered-items {
+        width: 25%;
+        font-size: 0.8em;
+        margin-right: 2em;
+    }
+
+    .ordered-items-mid {
+        width: 1.5em;
+        vertical-align: top;
+        font-size: 0.5em;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    .ordered-items-mid h1 {
+        line-height: 1.6em;
+    }
+
+    .workout-desc {
+        font-size: 1.5em;
+    }
+
+    .ordered-items,
+    .ordered-items-mid {
+        float: none !important;
+        display: inline-block;
+    }
+
+    .workout-controls,
+    .time-elapsed {
+        width: 50%;
+        left: 25%;
+    }
+
+    .rest-time-info {
+        font-size: 1em;
+    }
+
+    .time-elapsed div {
+        font-size: 2em;
+    }
+
+    .workout-control {
+        width: 300px;
+        height: 120px;
+        font-size: 3.5em
+    }
+
+    .workout-control svg {
+        vertical-align: middle;
+    }
+    
+}

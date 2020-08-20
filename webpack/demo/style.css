@@ -1,0 +1,60 @@
+BODY {
+  margin: 0;
+}
+.body {
+  position: relative;
+}
+
+.menu {
+  width: 280px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.body {
+  margin-left: 280px;
+  padding:2em;
+  padding-top: 0.2em;
+}
+
+.toggle-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+  z-index: 10;
+  background: #303336;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 10px;
+}
+
+.toggle-menu div {
+  background-color: #fff;
+  height: 3px;
+}
+
+.toggled {
+  width: 50px;
+}
+
+.toggled li:nth-child(2) {
+  display: none;
+}
+
+.toggled-body {
+  margin-left: 50px;
+}
+
+.toggled-menu {
+}
